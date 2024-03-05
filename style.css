@@ -33,9 +33,17 @@ overflow: hidden;
     animation: cano-animado 2s infinite linear;
 }
 
+.tijolinho{
+  position: absolute;
+    width: 180px;
+    bottom: 300px;
+    animation: tijolo-animado 2.5s infinite linear;
+}
+
 .mario{
     position: absolute;
     width: 140px;
+    margin-left: 10px;
     bottom: 180px;
 }
 
@@ -59,6 +67,17 @@ overflow: hidden;
     to{
         right: 100%;
     }
+}
+
+@keyframes tijolo-animado{
+
+  from{
+      right: -500px;
+  }
+
+  to{
+      right: 100%;
+  }
 }
 
 @keyframes pulo{
