@@ -16,7 +16,7 @@ const loop = setInterval(() => {
     const posicaoCano = cano.offsetLeft;
     const posicaoMario = +window.getComputedStyle(mario).bottom.replace('px', '');
     
-    if(posicaoCano <= 110 && posicaoCano > 0 && posicaoMario < 80) {
+    if(posicaoCano <= 110 && posicaoCano > 0 && posicaoMario < 280) {
     
         cano.style.animation = 'none';
         cano.style.left = `${posicaoCano}px`;
@@ -26,7 +26,7 @@ const loop = setInterval(() => {
 
         mario.src = '/assents/game-over.png';
         mario.style.width = "75px";
-        mario.style.marginLeft = '50px';
+        mario.style.marginLeft = '40px';
 
         clearInterval(loop)
 
