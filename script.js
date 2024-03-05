@@ -19,13 +19,13 @@ const loop = setInterval(() => {
     const posicaoMario = +window.getComputedStyle(mario).bottom.replace('px', '');
     
     if(posicaoCano <= 110 && posicaoCano > 0 && posicaoMario < 280) {
-    
+
         cano.style.animation = 'none';
         cano.style.left = `${posicaoCano}px`;
 
         tijolinho.style.animation = 'none';
         //ainda falta fazer o tijolo parar ao lado do cano (não em cima)
-        tijolinho.style.left = `${posicaoCano}px`;
+        tijolinho.style.left = `${posicaoCano}px`
 
         mario.style.animation = 'none';
         mario.style.bottom = `${posicaoMario}px`;

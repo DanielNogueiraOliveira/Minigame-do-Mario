@@ -19,13 +19,6 @@
   bottom: 0;
 
 }
-/*.teste{
-position: relative;
-width: 100%;
-
-overflow: hidden;
-}*/
-
 .cano{ 
     position: absolute;
     width: 80px;
@@ -35,9 +28,10 @@ overflow: hidden;
 
 .tijolinho{
   position: absolute;
-    width: 180px;
-    bottom: 300px;
-    animation: tijolo-animado 2.5s infinite linear;
+  margin-left: 174px;
+  width: 180px;
+  bottom: 300px;
+  animation: tijolo-animado 2.5s infinite linear;
 }
 
 .mario{
