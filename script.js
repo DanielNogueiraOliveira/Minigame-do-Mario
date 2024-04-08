@@ -41,3 +41,10 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener('keydown', pulo);
+
+function reniciar(event){ 
+
+    if (loop == true){
+        alert("tentar novamente")
+    }
+}
